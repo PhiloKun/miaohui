@@ -1,0 +1,46 @@
+# Flutter
+app/.dart_tool/
+app/.packages
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/ios/Pods/
+app/ios/.symlinks/
+app/macos/Pods/
+app/linux/flutter/ephemeral
+app/windows/flutter/ephemeral
+app/pubspec.lock
+
+# Android
+app/android/.gradle/
+app/android/local.properties
+app/android/app/build/
+app/android/build/
+app/android/captures/
+.idea/
+
+# Go
+server/server.exe
+server/templates/templates.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log
+
+# Model files
+*.gguf
+
+# Temp
+test_*.json
+gen_*.py
+fix_*.py
+write_*.py
